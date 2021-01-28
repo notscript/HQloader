@@ -2,7 +2,16 @@
 
 #Programas necessarios: Wget, Zip
 #Sistema Operacional necessario: Linux 
-
+echo "
+ooooo ooooo  ooooooo  o888                               oooo                        
+ 888   888 o888   888o 888   ooooooo     ooooooo    ooooo888  ooooooooo8 oo oooooo   
+ 888ooo888 888     888 888 888     888   ooooo888 888    888 888oooooo8   888    888 
+ 888   888 888o  8o888 888 888     888 888    888 888    888 888          888        
+o888o o888o  88ooo88  o888o  88ooo88    88ooo88 8o  88ooo888o  88oooo888 o888o       
+                  88o8                                               
+                                                                        by: NotScript
+                 
+"
 
 
 echo "Digite o nome da wordlist:"
@@ -24,7 +33,6 @@ if [ $RESP = "y" ]
 then 
 zip -r PolemicBooks.zip "$HQ"/
 echo "Compactado!"
-ls
 fi
 if [ $RESP = "n" ]
 then
@@ -45,6 +53,7 @@ then
 echo "OK, SAINDO"
 sleep 3
 fi
+
 
 
 
