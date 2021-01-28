@@ -24,6 +24,7 @@ if [ $RESP = "y" ]
 then 
 zip -r PolemicBooks.zip "$HQ"/
 echo "Compactado!"
+ls
 fi
 if [ $RESP = "n" ]
 then
